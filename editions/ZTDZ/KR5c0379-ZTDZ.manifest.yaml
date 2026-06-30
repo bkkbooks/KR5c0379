@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0379/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0379/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 明真破妄章頌
+  date: '2015-08-29 00:58:59.273011'
+  source:
+    repository: kanripo
+    path: KR5c0379
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0379_000-ZTDZ.yaml, hash: 'sha256:37bf94fcfac8f91a18836a95a5f004eb186f32b5c56ae7c9526f7fa9db685d3e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0379_000-ZTDZ.markers.yaml, hash: 'sha256:4bf584d1accb4b459fc285d41576936fb2c5c51992b05abd5be73b50427238e0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0379_SJB_000-190848c
+    span:
+    - body
+    - 0
+    - 1388
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ff49fa7906b0356655294d5d7df229c4cac7d68d354bfe06fb95c3cfb9e70eeb
